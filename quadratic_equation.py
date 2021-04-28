@@ -36,4 +36,6 @@ def main():
         x1, x2 = solve(a, b, c, delta)
         print('x1 = {0}\nx2 = {1}'.format(x1, x2))
 
-main()
+
+if __name__ == 'main':
+    main()
