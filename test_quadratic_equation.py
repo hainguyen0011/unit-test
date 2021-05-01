@@ -1,4 +1,3 @@
-
 from quadratic_equation import *
 import pytest
 
