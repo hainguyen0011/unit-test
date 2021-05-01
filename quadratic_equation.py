@@ -12,7 +12,7 @@ def solve(a, b, delta):
         x2 = (-b - sqrt(delta)) / (2*a)
         return x1, x2
     elif delta == 0:
-        x = x1 = -b/(2*a)
+        x = -b/(2*a)
         return x
     else:
         real_part = -b/(2*a)
