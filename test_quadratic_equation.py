@@ -1,13 +1,12 @@
-import math
-import py
-import quadratic_equation
+
+from quadratic_equation import *
 import pytest
 
 
 @pytest.mark.square
 def test_square():
     num = 25
-    assert math.sqrt(num) == 5
+    assert sqrt(num) == 5
 
 
 @pytest.mark.square
