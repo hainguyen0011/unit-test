@@ -22,7 +22,7 @@ def test_solve_statement(a, b, delta, output):
 
 @pytest.mark.branch_coverage
 @pytest.mark.parametrize("a,b,delta,output",
-                         [(4, 4, 16, (-1, 0)),
+                         [(4, 4, 16, (0, -1)),
                           (3, 6, 0, (-1)),
                           (8, 0, -64, (0, 0.5))])
 def test_solve_branch(a, b, delta, output):
