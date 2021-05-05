@@ -15,6 +15,6 @@ def solve(a, b, delta):
         x = -b/(2*a)
         return x
     else:
-        real_part = -b/(2*a)
-        imaginary_part = sqrt(-delta)/(2*a)
+        real_part = round(-b / (2*a), 3)
+        imaginary_part = round(sqrt(-delta) / (2*a), 3)
         return real_part, imaginary_part
